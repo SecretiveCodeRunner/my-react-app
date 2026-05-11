@@ -411,7 +411,7 @@ export default function AMToolbox() {
           <h1 style={{ margin: 0, fontSize: 20, color: "#00ffcc", letterSpacing: 3, textShadow: "0 0 16px #00ffcc55" }}>
             ◈ AM SIGNAL TOOLBOX
           </h1>
-          <span style={{ color: "#1a5050", fontSize: 10 }}>Analog Communication | made by APURBA MAITY</span>
+          <span style={{ color: "#00ffcc", fontSize:16,fontWeight:"bold",letterSpacing:2,textShadow: "0 0 16px #00ffcc88" }}>APURBA MAITY</span>
         </div>
       </div>
 
