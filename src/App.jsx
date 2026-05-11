@@ -406,14 +406,50 @@ export default function AMToolbox() {
     <div style={{ minHeight: "100vh", background: "#020b0b", color: "#b0d8d4", fontFamily: "monospace", padding: 14 }}>
 
       {/* Header */}
-      <div style={{ marginBottom: 14, paddingBottom: 10, borderBottom: "1px solid #0a2828" }}>
-        <div style={{ display: "flex", alignItems: "baseline", gap: 12 }}>
-          <h1 style={{ margin: 0, fontSize: 20, color: "#00ffcc", letterSpacing: 3, textShadow: "0 0 16px #00ffcc55" }}>
-            ◈ AM SIGNAL TOOLBOX
-          </h1>
-          <span style={{ color: "#00ffcc", fontSize:16,fontWeight:"bold",letterSpacing:2,textShadow: "0 0 16px #00ffcc88" }}>APURBA MAITY</span>
-        </div>
-      </div>
+      <div
+  style={{
+    marginBottom: 14,
+    paddingBottom: 12,
+    borderBottom: "1px solid #0a2828",
+  }}
+>
+  <div
+    style={{
+      display: "flex",
+      justifyContent: "space-between",
+      alignItems: "center",
+    }}
+  >
+    <h1
+      style={{
+        margin: 0,
+        fontSize: 20,
+        color: "#00ffcc",
+        letterSpacing: 3,
+        textShadow: "0 0 16px #00ffcc55",
+      }}
+    >
+      ◈ AM SIGNAL TOOLBOX
+    </h1>
+
+    <span
+      style={{
+        padding: "10px 28px",
+        border: "1px solid #00ffcc88",
+        borderRadius: 10,
+        color: "#00ffcc",
+        fontSize: 22,
+        fontWeight: "bold",
+        letterSpacing: 5,
+        textShadow: "0 0 18px #00ffccaa",
+        boxShadow: "0 0 18px #00ffcc22 inset, 0 0 12px #00ffcc33",
+        background: "rgba(0,255,200,0.05)",
+      }}
+    >
+      APURBA MAITY
+    </span>
+  </div>
+</div>
 
       <div style={{ display: "flex", gap: 14 }}>
 
