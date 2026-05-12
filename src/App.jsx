@@ -624,6 +624,7 @@ export default function AMToolbox() {
     </span>
   </div>
 </div>
+      </div>
 
       <div style={{ display: "flex", gap: 14 }}>
 
