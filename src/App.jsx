@@ -632,16 +632,28 @@ export default function AMToolbox() {
       <div style={{padding:"12px 24px 32px",minWidth:0}}>
 
         {/* HEADER */}
-        <div style={{marginBottom:14,paddingBottom:10,borderBottom:"1px solid #0c2828",
-          display:"flex",alignItems:"baseline",justifyContent:"space-between",flexWrap:"wrap",gap:8}}>
-          <div style={{display:"flex",alignItems:"baseline",gap:16}}>
-            <h1 style={{margin:0,fontSize:24,color:"#00ffcc",letterSpacing:5,textShadow:"0 0 24px #00ffcc66"}}>
-              ◈ AM SIGNAL TOOLBOX
-            </h1>
-            <span style={{color:"#1a5858",fontSize:12}}>EC401 · Analog Communication · MAKAUT</span>
-          </div>
-          <span style={{color:"#1a5858",fontSize:11}}>v5.2 — Clear Peak Labels</span>
-        </div>
+      <div style={{marginBottom:14,paddingBottom:10,borderBottom:"1px solid #0c2828",
+  display:"flex",alignItems:"center",justifyContent:"space-between",flexWrap:"wrap",gap:8}}>
+  
+  <div style={{display:"flex",alignItems:"center",gap:20}}>
+    <h1 style={{margin:0,fontSize:24,color:"#00ffcc",letterSpacing:5,textShadow:"0 0 24px #00ffcc66"}}>
+      ◈ AM SIGNAL TOOLBOX
+    </h1>
+    <span style={{
+      fontSize:18,
+      fontWeight:"bold",
+      fontFamily:"'Courier New',monospace",
+      color:"#00ffcc",
+      letterSpacing:3,
+      textShadow:"0 0 16px #00ffcc88, 0 0 32px #00ffcc44",
+      borderLeft:"2px solid #0d3838",
+      paddingLeft:20,
+    }}>
+      APURBA MAITY
+    </span>
+  </div>
+
+</div>s
 
         {/* BODY */}
         <div style={{display:"flex",gap:16,alignItems:"flex-start"}}>
